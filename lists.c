@@ -70,8 +70,9 @@ list_t *add_node_end(list_t **head, const char *str, int num)
 		node->next = new_node;
 	}
 	else
-		*head = new_mode;
-	return (new_mode);
+		*head = new_node;
+
+	return (new_node);
 }
 
 /**
